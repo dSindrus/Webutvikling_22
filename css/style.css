@@ -1,0 +1,32 @@
+body {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;background-color: antiquewhite;
+
+}
+
+h1{
+    text-align: left;
+}
+h2{
+    text-align: left; 
+}
+img {
+    width: 100px;
+    max-width: 600px;
+}
+
+.grey-box{
+    border-radius: 8px;
+    background-color: gray;
+}
+
+.blue-box{
+    border-radius: 8px;
+    background-color: blue;
+}
+
+.red-box{
+    border-radius: 8px;
+    background-color: crimson;
+}
