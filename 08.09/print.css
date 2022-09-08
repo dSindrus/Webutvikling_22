@@ -1,0 +1,9 @@
+aside{
+    display: none;          /*Fjerner aside elementet fra print-arket*/
+}
+header{
+    display: none;          /*Fjerner header elementet fra print-arket*/
+}
+ul{
+    display: none;          /*Fjerner ul elementet fra print-arket*/
+}

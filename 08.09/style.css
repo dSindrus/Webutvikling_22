@@ -28,6 +28,10 @@ header nav a{
     text-decoration: none;
 }
 
+header nav ul li a:hover{
+    text-decoration: underline;                 /*Legger til understrek, men kun på de definerte elementene*/
+}
+
 nav{
     overflow: auto;
     background-color: #d2dfe1;
@@ -72,6 +76,10 @@ main article{
 
 #breadcrumbs li{
     display: inline-block;    
+}
+
+#breadcrumbs li::after{
+    content: ">";
 }
 
 article img{
