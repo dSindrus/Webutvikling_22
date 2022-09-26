@@ -19,8 +19,17 @@ body{
     
 }
 
-nav ul{
+nav a{
     float: auto;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: aqua;
+    transition: color .2s ease-in-out    
+}
+
+nav a:hover{
+    color: aliceblue;
 }
 
 nav ul li{
@@ -29,22 +38,26 @@ nav ul li{
 }
 
 nav{
+    text-decoration-color: gold;
     grid-area: nav;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0,5rem;
+    background-image: url(https://image.shutterstock.com/shutterstock/photos/1464082907/display_1500/stock-vector-finance-statistics-and-data-analytics-stock-exchange-market-investment-finance-and-trading-1464082907.jpg);
+    /*bildekilde/url: https://image.shutterstock.com/shutterstock/photos/1464082907/display_1500/stock-vector-finance-statistics-and-data-analytics-stock-exchange-market-investment-finance-and-trading-1464082907.jpg)*/
 }
 
 #artikkelkort{
     display: flex;
     flex-direction: row;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 #innholdsside{
+    flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #test{
@@ -56,13 +69,17 @@ header{
     grid-area: header;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 1rem;
+}
+
+#Eksempelbilde{
+    max-width: 200px;
 }
 
 main article{
     display: flex;
     margin: 1rem;
-    max-width: 200px;
 }
 
 main{
@@ -71,8 +88,6 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    margin: 1rem;
-
 }
 
 footer{
