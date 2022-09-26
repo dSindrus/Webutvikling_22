@@ -8,7 +8,6 @@ body{
                         "header header header"
                         "main main main"
                         "footer footer footer" ;
-
 }
 
 #logo{
@@ -60,7 +59,7 @@ nav{
     justify-content: center;
 }
 
-#test{
+.artikkel{
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +72,7 @@ header{
     margin: 1rem;
 }
 
-#Eksempelbilde{
+.Eksempelbilde{
     max-width: 200px;
 }
 
