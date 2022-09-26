@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(114, 114, 38);
+}
+#grid-container{
+    display: grid;
+    grid-template-areas:" topheader topheader top header"
+    "nav nav nav"
+    "main main main"
+    "header header header"
+    "footer footer footer" ;
+
+}
+
+#artikkelkort{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: right;
+    justify-content: center;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
