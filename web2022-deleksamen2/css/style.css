@@ -11,12 +11,6 @@ body{
 
 }
 
-#topheader{
-    display: flex;
-    justify-content: center;
-    background-color: mediumaquamarine;
-}
-
 #logo{
     height: 100px;
     width: auto;
@@ -46,6 +40,11 @@ nav{
     display: flex;
     flex-direction: row;
     margin: 1rem;
+}
+
+#innholdsside{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #test{
