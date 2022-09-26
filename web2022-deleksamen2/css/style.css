@@ -25,7 +25,7 @@ body{
     
 }
 
-nav ul{;
+nav ul{
     float: right;
 }
 
@@ -41,12 +41,30 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: 0,5rem;
 }
 
 #artikkelkort{
     display: flex;
     flex-direction: row;
-    padding: 200px;
+    margin: 1rem;
+}
+
+#test{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+main article{
+    display: flex;
+    margin: 1rem;
 }
 
 main{
@@ -59,14 +77,9 @@ main{
 
 }
 
-header{
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-}
-
 footer{
     grid-area: footer;
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }
