@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(114, 114, 38);
+    background-color: rgb(141, 141, 140);
 }
 #grid-container{
     display: grid;
@@ -14,11 +14,24 @@ body{
 #topheader{
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
 
 #logo{
     height: 100px;
     width: auto;
+    display: flex;
+    float: left;
+    
+}
+
+nav ul{;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 1rem;
 }
 
 nav{
@@ -28,12 +41,12 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 }
 
 #artikkelkort{
     display: flex;
     flex-direction: row;
+    padding: 200px;
 }
 
 main{
@@ -42,6 +55,8 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin: 1rem;
+
 }
 
 header{
