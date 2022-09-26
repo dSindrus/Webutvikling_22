@@ -26,7 +26,7 @@ body{
 }
 
 nav ul{
-    float: right;
+    float: auto;
 }
 
 nav ul li{
@@ -35,8 +35,6 @@ nav ul li{
 }
 
 nav{
-    height: 100px;
-    width: auto;
     grid-area: nav;
     display: flex;
     flex-wrap: wrap;
