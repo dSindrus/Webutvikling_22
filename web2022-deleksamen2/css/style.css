@@ -1,7 +1,7 @@
 body{
     background-color: rgb(141, 141, 140);
 }
-#grid-container{
+#grid**container{
     display: grid;
     grid-template-areas:" topheader topheader top header"
     "nav nav nav"
@@ -14,7 +14,7 @@ body{
 #topheader{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: mediumaquamarine;
 }
 
 #logo{
