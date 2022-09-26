@@ -1,13 +1,13 @@
 body{
     background-color: rgb(141, 141, 140);
 }
-#grid**container{
+#grid-container{
     display: grid;
-    grid-template-areas:" topheader topheader top header"
-    "nav nav nav"
-    "main main main"
-    "header header header"
-    "footer footer footer" ;
+    grid-template-areas:
+                        "nav nav nav"
+                        "header header header"
+                        "main main main"
+                        "footer footer footer" ;
 
 }
 
@@ -63,6 +63,7 @@ header{
 main article{
     display: flex;
     margin: 1rem;
+    max-width: 200px;
 }
 
 main{
