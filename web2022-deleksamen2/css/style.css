@@ -11,12 +11,14 @@ body{
 
 }
 
-#artikkelkort{
-    display: flex;
-    flex-direction: row;
+#logo{
+    height: 100px;
+    width: auto;
 }
 
 nav{
+    height: 100px;
+    width: auto;
     grid-area: nav;
     display: flex;
     flex-wrap: wrap;
@@ -24,11 +26,16 @@ nav{
     justify-content: center;
 }
 
+#artikkelkort{
+    display: flex;
+    flex-direction: row;
+}
+
 main{
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: right;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -38,4 +45,6 @@ header{
 
 footer{
     grid-area: footer;
+    flex-direction: row;
+    justify-content: center;
 }
