@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(114, 114, 38);
+}
+#grid-container{
+    display: grid;
+    grid-template-areas:" topheader topheader top header"
+    "nav nav nav"
+    "main main main"
+    "header header header"
+    "footer footer footer" ;
+
+}
+
+#top-header{
+    grid-area: header;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
