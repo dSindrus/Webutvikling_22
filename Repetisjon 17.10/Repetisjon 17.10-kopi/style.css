@@ -10,12 +10,12 @@ body{
     margin: 0;
 }
 #grid{
-    /*......*/
-    /*......*/
-    /*......*/
-    /*......*/
-    /*......*/
-    /*......*/
+    display: grid
+    grid-template-areas:
+                        "nav nav nav"
+                        "header header header"
+                        "main main aside"
+                        "footer footer footer" ;
 }
 #page-header{
     /*......*/
@@ -36,9 +36,10 @@ main{
 }
 
 main section{
-    /*......*/
-    /*......*/
-    /*......*/
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+    padding: 2rem;
 }
  article{
     background-color: #efefef;
