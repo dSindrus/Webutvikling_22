@@ -5,13 +5,13 @@
 
 #gridContainer{
     display: grid;
-    grid-template-areas:"header header header"
-                        "featured featured featured"
-                        "featured featured featured" 
-                        "main main main"
-                        "main main main"
+    grid-template-areas:"header header header" 
+                        ". featured ."
+                        ". featured ." 
+                        ". main ."
+                        ". main ."
                         "footer footer footer";
-    /*grid-template-columns: 1fr 3fr 1fr;*/
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 header{
@@ -24,6 +24,10 @@ header nav ul{
     align-items: left;
     justify-content: space-between;
     padding: 0.5rem;
+}
+
+header nav:hover{
+
 }
 
 header nav ul li::before{
@@ -46,44 +50,21 @@ header nav ul li:hover::before{
 
 @keyframes flyingText{
     from{
-        transform: translateX(-500px);
-    }
+        transform: translateX{-500px};
     }
     to{
-        transform: translateX(0);
-    }
-
-@keyframes colorAni{
-    0%{
-        background-color: blue;
-    }
-    25%{
-        background-color: chocolate;
-    }
-    50%{
-        background-color: aqua;
-    }
-    75%{
-        background-color: darkgreen;
-    }
-    100%{
-        background-color: crimson;
+        transform: translateX{0px}
     }
 }
 
-#nav-ani{
-    animation-name: colorAni;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-/*#overskrift{
-    grid-area: h2;
-    align-items: center;
+#overskrift{
     transform:translateX(-500px);
     animation-name: flyingText;
     animation-duration: 2s;
-}*/
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
 
 header nav ul li{
     display: inline-block;
@@ -93,11 +74,10 @@ header nav ul li{
 .featured-items{
     grid-area: featured;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    /*flex-direction: column;*/
-    gap: 2rem;
+    gap: 1rem;
     justify-content: space-between;
-    padding: 1rem;
 }
 
 .featured-items h2{
@@ -115,9 +95,8 @@ header nav ul li{
 main{
     grid-area: main;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    /*flex: wrap;*/
+    flex-direction: column;
+    flex: wrap;
     gap: 1rem;
     justify-content: space-between;
 }
@@ -125,12 +104,6 @@ main{
 main article{
     flex-grow: 1;
     flex-basis: 300px;
-    /*display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    /*flex: wrap;*/
-    gap: 1rem;
-    justify-content: space-between;
 }
 
 footer{
