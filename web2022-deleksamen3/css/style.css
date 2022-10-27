@@ -15,59 +15,47 @@ body{
     width: auto;
     display: flex;
     float: left;
+}
+
+#TABELL{
+    display: table;
+    width: 100%;
+    justify-content: center;
     
 }
-
-#tabell_1 p{
-    border: solid 0.2rem black;
-    height: auto;
-    width: 3rem;
+#CMS_TABELL{
+    display: table-caption;
+    font-size: 25px;
+    text-align: center;
 }
 
-#tabell_1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: auto;
+#t_header{
+    display: table-header-group;
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#tabell_2 p{
-    border: solid 0.2rem black;
-    height: auto;
-    width: 3rem; 
+.h.rute{
+    display: table-cell;
+    border-bottom: 3px black;
+    text-align: justify;
+    padding: 1rem;
 }
 
-#tabell_2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: auto;
+#t_kropp{
+    display: table-row-group;
+    border-color: black;
 }
 
-#tabell_3 p{
-    border: solid 0.2rem black;
-    height: auto;
-    width: 3rem;
+#t_rad{
+    display: table-row;
+    border: 1px black;
 }
 
-#tabell_3{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+.t_rute{
+    display: table-cell
 
-#tabell_4 p{
-    border: solid 0.2rem black;
-    height: auto;
-    width: 3rem;
-    margin: auto;
-}
-
-#tabell_4{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: auto;
 }
 
 nav a{
