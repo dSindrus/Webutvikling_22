@@ -51,7 +51,7 @@ nav{
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: rgba(255, 155, 155, 0.8);
-    padding: 10px;
+    padding: 5px;
   }
   .t_Ruter {
     background-color: rgba(83, 82, 82, 0.8);
