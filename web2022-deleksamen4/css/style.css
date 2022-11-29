@@ -104,9 +104,10 @@ main{
     justify-content: center;
 }
 
-footer h2{
+footer{
     grid-area: footer;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: center;
 }

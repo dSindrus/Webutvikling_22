@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--SoMe-->
+    <!--Twitter-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_twitter_handle">
+    <meta name="twitter:title" content="Kontaktinformasjon">
+    <meta name="twitter:description" content="Dette er en side for kontaktinformasjon">
+    <meta name="twitter:image" content="https://itstud.hiof.no/~sindrefl/webserver/web2022-deleksamen4/img/preview_image">
+    <meta name="twitter:image:alt" content="Bilde som viser en webutvikler">
+    <!----->
+    <!--Facebook-->
+    <meta property="og:url" content="https://itstud.hiof.no/~sindrefl/webserver/web2022-deleksamen4/index.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Kontaktinformasjon">
+    <meta property="og:description" content="Dette er en side for kontaktinformasjon">
+    <meta property="og:image" content="https://itstud.hiof.no/~sindrefl/webserver/web2022-deleksamen4/img/preview_image">
+    <meta property="og:image:alt" content="Bilde som viser en webutvikler">
+    <meta property="og:locale" content="nb_NO">
+    <!----->
     <!--fontawesome-->
     <link href="fontawesome/css/brands.css" rel="stylesheet">
     <link href="fontawesome/css/solid.css" rel="stylesheet">
@@ -52,23 +70,31 @@
                 <!--Kilde: https://support.loopia.no/wiki/kontaktskjema-formmail/-->
                 <form name="Kontaktskjema" method="post" id="skjema">
                     <p>
-                        Fyll ut kontaktskjemaet her:
+                        <h3>
+                            Fyll ut kontaktskjemaet her:
+                        </h3>
                     </p>
                     <p>
                         <label>
-                            Navn<br>
+                            <h4>
+                                Navn<br>
+                            </h4>
                             <input type="text" size="20" name="navn">
                         </label>
                     </p>
                     <p>
                         <label>
-                            E-post<br>
+                            <h4>
+                                E-post<br>
+                            </h4>
                             <input type="text" size="20" name="epost">
                         </label>
                     </p>
                     <p>
                         <label>
-                            Still spørsmålet ditt her<br>
+                            <h4>
+                                Still spørsmålet ditt her<br>
+                            </h4>
                             <textarea name="melding" cols="35" rows="10"></textarea>
                         </label>
                     </p>
@@ -83,11 +109,9 @@
                 width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </main>
     <footer>
-        <h2>
-        <p><i class="fa-brands fa-facebook" class="icon"></i></p>
-        <p><i class="fa-brands fa-twitter" class="icon"></i></p>
-        <p><i class="fa-brands fa-pinterest" class="icon"></i></p>
-        </h2>
+        <p><button type="button"><i class="fa-brands fa-facebook"> </i> </button> </p>
+        <p><button type="button"><i class="fa-brands fa-twitter"> </i> </button> </p>
+        <p><button type="button"><i class="fa-brands fa-pinterest"> </i> </button> </p>
     </footer>
     </div>
 </body>
