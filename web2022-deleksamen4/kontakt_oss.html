@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Document</title>
+    <!--fontawesome-->
+    <link href="/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <!--fontawesome-->
+    <title>Kontakt Oss</title>
     <!--Tags til favicon-->
     <!--kilde: https://favicon.io/favicon-generator/-->
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -28,23 +33,60 @@
             </ul>
         </nav>
         <header>
-            <h1>OVERSIKT</h1>
+            <h1>Kontaktinformasjon</h1>
             <a href="#"></a>
         </header>
         <main>
             <article id="innholdsside">
-                <h3>Kontakt oss</h3>
-                <img class="Eksempelbilde" src="img/200x200.png" alt="placeholder for artikkelkort">
+                <h3>SF Webz AS</h3>
+                <!--<img class="Eksempelbilde" src="img/200x200.png" alt="placeholder for artikkelkort">-->
                 <h4>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis vel quod, reprehenderit earum beatae dolores, modi perspiciatis voluptatem excepturi sint nisi saepe debitis porro, aut consequuntur. Dicta eaque officiis est qui ad mollitia vero quas nobis consequuntur? Accusamus, eos culpa id impedit minima saepe provident nam voluptas aliquid earum est.
+                    <ul>
+                        <li>ADRESSE: B R A Veien 4, 1757 Halden</li>
+                        <li>EMAIL: post@testpost.no</li>
+                        <li><i class="fa-solid fa-phone-volume"></i> TLF: +47 99 78 48 78</li>
+                    </ul>
+
                 </h4>
+                <!--Kontaktskjema-->
+                <!--Kilde: https://support.loopia.no/wiki/kontaktskjema-formmail/-->
+                <form name="Kontaktskjema" method="post" id="skjema">
+                    <p>
+                        Fyll ut kontaktskjemaet her:
+                    </p>
+                    <p>
+                        <label>
+                            Navn<br>
+                            <input type="text" size="20" name="navn">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            E-post<br>
+                            <input type="text" size="20" name="epost">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Still spørsmålet ditt her<br>
+                            <textarea name="melding" cols="35" rows="10"></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <input type="Submit" value="Send">
+                    </p>
+                </form>
+
             </article>
+            <!--Google-kart-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882761207512!2d11.350614615397376!3d59.129250234091494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f6cf4d491d%3A0xdd127f6ec81a545d!2sB%20R%20A%20Veien%204%2C%201783%20Halden!5e0!3m2!1sno!2sno!4v1668598316957!5m2!1sno!2sno" 
+                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </main>
     <footer>
         <ul>
             <li>EMAIL: post@testpost.no</li>
             <li>TLF: +47 99 88 77 66</li>
-            <li>POSTADRESSE: Imaginærvei 42, 6969 Limbo</li>
+            <li>POSTADRESSE: B R A Veien 4, 1757 Halden</li>
         </ul>
     </footer>
     </div>
