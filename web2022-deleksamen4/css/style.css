@@ -108,13 +108,25 @@ footer {
     grid-area: footer;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     justify-content: center;
+    height: 50px;
+    max-width: 100%;
+    margin: none;
 }
 
 footer p{
+    margin: none;
+}
+
+.share-button{
+    width: 50px;
+}
+
+footer button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    max-height: 100%;
+    width: 30px;
+    margin: 1rem;
 }
