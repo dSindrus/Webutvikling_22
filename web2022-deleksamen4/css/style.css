@@ -104,10 +104,17 @@ main{
     justify-content: center;
 }
 
-footer{
+footer {
     grid-area: footer;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-content: center;
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
