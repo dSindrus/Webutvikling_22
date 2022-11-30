@@ -137,7 +137,7 @@ footer button{
     #logo{
         display: none;
     }
-    .eksempelbilde{
+    .Eksempelbilde{
         display: none;
     }
 }
@@ -157,6 +157,10 @@ footer button{
         float: right;
     } 
     .Tabell{
+        display: flex;
+        flex-direction: column;
+    }
+    #artikkelkort{
         display: flex;
         flex-direction: column;
     }
