@@ -54,6 +54,13 @@ nav{
     grid-template-columns: auto auto auto;
     padding: 5px;
   }
+
+.Tabell-A {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 5px;
+  }
+
   .t_Ruter {
     background-color: rgba(83, 82, 82, 0.8);
     border: 2px solid rgba(12, 2, 2, 0.8);
@@ -90,6 +97,11 @@ header{
 
 .Eksempelbilde{
     max-width: 200px;
+}
+
+.Analyse-bilde{
+    max-width: 500px;
+    justify-content: center;
 }
 
 main article{
